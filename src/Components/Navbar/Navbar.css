@@ -1,8 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&family=Ysabeau:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&family=Prompt:wght@200&family=Ysabeau:wght@300&display=swap');
+
 nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    height: 150px;
+    background-color: beige;
+    justify-content: space-around;
+}
+
+.nav h3 {
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Ysabeau', sans-serif;
 }
 
 .links {
+    display: flex;
     margin: 5px;
+    align-items: center;
+    padding: 5px;
+}
+
+.btn-nav {
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.btn-nav:hover {
+    font-size: 25px;
+    transition: 1s;
+    color: aliceblue;
+    background-color: aquamarine;
+}
+
+.wid-nav {
+    display: flex;
+    align-items: center;
 }
