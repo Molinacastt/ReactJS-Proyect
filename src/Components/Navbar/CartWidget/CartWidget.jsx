@@ -1,11 +1,12 @@
-import Carrito from "./assets/Carrito.png"
 import './CartWidget.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 const CartWidget = () => {
     return (
         <div className="wid-nav">
-            <img src={Carrito} alt="carrito" width="70px" height="70px"/>
-            4
+            <FontAwesomeIcon icon={faCartShopping} />
+            <p className='four'>4</p>
         </div>
     )
 }

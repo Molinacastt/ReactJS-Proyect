@@ -4,13 +4,13 @@
 nav {
     display: flex;
     flex-direction: row;
-    height: 150px;
-    background-color: beige;
+    height: 85px;
+    background-color: rgb(217, 183, 129);
     justify-content: space-around;
 }
 
 .nav h3 {
-    font-size: 100px;
+    font-size: 50px;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -25,9 +25,14 @@ nav {
     padding: 5px;
 }
 
+.links:hover {
+    border: 2px;
+    border-color: black;
+}
+
 .btn-nav {
     font-size: 30px;
-    padding: 5px;
+    padding: 20px;
     margin: 5px;
     border-radius: 5px;
     border: none;
@@ -38,10 +43,9 @@ nav {
 }
 
 .btn-nav:hover {
-    font-size: 25px;
     transition: 1s;
-    color: aliceblue;
-    background-color: aquamarine;
+    color: aliceblue; 
+    text-decoration:overline;  
 }
 
 .wid-nav {
